@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+.body{
+    background-color: black;
+}
+.header{
+
+    background-color: black;
+    display: flex;
+    max-width: auto;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.headlogo img{
+
+    width: 200px;
+    height:50px;
+
+}
+
+.headmenu{
+   display: flex;
+   padding-left: 10px;
+   padding-top: 20px;
+   padding-bottom: 0px;
+
+}
+.headlink a{
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.headlink a:hover{
+
+    box-shadow: 2px 4px 8px 2px white;
+
+}
+
+.profile-img img{
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.main{
+    
+    display: flex;
+    background-image: url('https://www.binarymetrix.com/wp-content/uploads/2022/05/web-development-banner.jpg');
+    background-attachment: fixed;
+    max-width: 1440px;
+    margin: 0;
+}
+
+.headname{
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.headtitle p{
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+
+.main:hover .headname .headtitle p{
+    color:white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.main:hover .headname{
+    color:white;
+    font-size: 20px;
+    transition: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.shortdes p{
+
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-indent: 50px;
+    background-color: black;
+    color:white;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 25px;
+    
+}
+
+.shortdes{
+
+    padding: 50px 150px;
+    background-color: black;
+}
+
+.skill .sname{
+    text-indent: 20px;
+    padding: 15px;
+    color: rgba(0, 255, 255, 0.726);
+    background-color: black;
+}
+.skill .sdescrip{
+    text-align: justify;
+    padding: 10px;
+    padding-left: 35px;
+    color: rgba(253, 242, 253, 0.541);
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+.skill:hover .sdescrip{
+    color: aqua;
+    box-shadow: 2px 4px 6px 0px rgba(131, 201, 241,);
+    transition: 0.3s;
+}
+
+.skill:hover .sname{
+    font-size: 20px;
+    color: azure;
+}
